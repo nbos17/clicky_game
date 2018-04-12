@@ -3,7 +3,7 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./friends.json";
-//import ScoreCard from "./components/ScoreCard";
+import ScoreCard from "./components/ScoreCard";
 import "./App.css";
 
 class App extends Component {

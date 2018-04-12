@@ -1,8 +1,8 @@
 import React from "react";
 
-const scoreCard = props => (
-	<div className = "score">Score : </div>
-	)
+const ScoreCard = props => 
+	<div className = "score">Score : </div>;
+	
 
-export default scoreCard;
+export default ScoreCard;
 
