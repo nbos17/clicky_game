@@ -1,12 +1,22 @@
 .title {
+  padding-top: 50px;
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  color: #484747;
 }
-.test {
-	background-color: grey;
+
+.titleblock {
 	width: 100%;
+	text-align: center;
+	background: url(/images/titleart.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 4px solid white;
+
+}
+
+.subtitle{
+	color: black;
+
 }

@@ -4,13 +4,13 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import letters from "./letters.json";
+import letters from "./friends.json";
 import "./App.css";
 
 class App extends Component {
 
   state = {
-    message: "Click a letter to begin!",
+    message: "Select An Image To Begin!",
     topScore: 0,
     currentScore: 0,
     letters: letters,
@@ -84,8 +84,10 @@ class App extends Component {
           />
         ))}
       </Wrapper>
-      <Footer>&copy; Copyright Susan Marek</Footer>
+      <Footer>&copy; Copyright Nathan Bos</Footer>
       </div>
     );
   }
 }
+
+export default App;
