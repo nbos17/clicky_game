@@ -1,7 +1,9 @@
 import React from "react";
+import "./style.css";
+
 
 const ScoreCard = props => 
-	<div className = "score">Score : </div>;
+	<div className = "score">Score : <span>{props.children}</span></div>;
 	
 
 export default ScoreCard;
