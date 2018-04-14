@@ -5,6 +5,7 @@
   position: relative;
   width: 200px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+
 }
 
 .card:hover .img-container {
@@ -19,7 +20,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: white;
+  background-color: #e6e6e6;
   opacity: 1;
   transition: .2s ease;
 }
