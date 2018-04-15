@@ -14,7 +14,8 @@ class App extends Component {
     topScore: 0,
     currentScore: 0,
     letters: letters,
-    unselectedletters: letters
+    unselectedletters: letters,
+    characterName : null
   }
 
   componentDidMount() {
@@ -30,6 +31,8 @@ class App extends Component {
   selectLetter = id => {
   // Find this.state.unselectedletters for letter with an id equal to the id being clicked
   const findLetter = this.state.unselectedletters.find(item => item.id === id);
+  //const nameChosen = this.state.letters;
+ // console.log(findLetter.name);
   // Set this.state.unselectedletter equal to the new letter array
    if(findLetter === undefined) {
 
@@ -42,9 +45,11 @@ class App extends Component {
           unselectedletters: letters
       });
     }
- else{
+  else{
     // selected a new letter
     const newLetters = this.state.unselectedletters.filter(item => item.id !== id);
+    //const nameChosen = this.state.letters.name;
+    //console.log(nameChosen);
 
     this.setState ({
       message: "CORRECT!",
